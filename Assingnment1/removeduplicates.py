@@ -21,7 +21,11 @@ def main():
     """
     num_items = int(raw_input("Enter the Number of item in the List:"))
     item_list = []
-    print "Enter items in the List:"
+    if num_items > 0:
+        print "Enter items in the List:"
+    else:
+        print "Number of items should be greater then ZERO"
+        return
     while num_items > 0:
         item = int(raw_input())
         item_list.append(item)
