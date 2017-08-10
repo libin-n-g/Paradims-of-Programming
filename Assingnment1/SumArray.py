@@ -2,6 +2,8 @@
 Program to compute sum of all elments in a given array
 Author : Libin N George
 Date   : 10 August 2017
+Time Complexity O(n)
+Space O(n)
 '''
 def compute_sum(array):
     '''

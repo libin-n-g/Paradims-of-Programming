@@ -2,6 +2,8 @@
 Program which remove adjacent duplicates given a list of items.
 Author : Libin N George
 Date   : 9 August 2017
+Time Complexity O(n)
+Space O(n)
 """
 def remove_adjacent_duplicates(item_list):
     '''

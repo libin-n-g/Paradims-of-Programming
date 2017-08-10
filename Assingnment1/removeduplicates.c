@@ -2,6 +2,8 @@
    Program which remove adjacent duplicates given a list of items.
    Author : Libin N George
    Date   : 10 August 2017
+   Time Complexity O(n)
+   Space O(n)
 */
 
 #include <stdio.h>
@@ -13,7 +15,7 @@
 */
 int remove_adjacent_duplicates(int item_list[],int num_items)
 {
-  	int index = 1, j = 1;// j used for writing non duplicates to array
+  	int index = 1, j = 1; // j used for writing non duplicates to array
   	int prev = item_list[0];
   	while (index < num_items)
   	{
