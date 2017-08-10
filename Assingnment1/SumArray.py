@@ -7,11 +7,10 @@ def compute_sum(array):
     '''
     Function which computes sum of the array elements
     '''
-    if len(array) > 0:
+    if len(array) > 1:
         for index in range(len(array)-1):
             array[0] = array[0] + array[index+1]
-        return array[0]
-    return 0
+    return array[0]
 
 def main():
     """
