@@ -23,7 +23,7 @@ def fibonacci(num_term):
                 pprev_term = prev_term
                 prev_term = cur_term
                 print cur_term
-        
+
 
 def main():
     '''

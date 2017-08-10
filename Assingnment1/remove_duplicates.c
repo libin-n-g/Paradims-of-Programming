@@ -43,15 +43,16 @@ void main()
     	item_list = (int*) malloc(num_items * sizeof(int));
       	if(item_list)
 		{
-	  		for (index = 0; index < num_items ; i++) //loop to input list
+			printf("Enter items which you want to add to list\n");
+	  		for (index = 0; index < num_items ; index++) //loop to input list
 	    	{
-	      		scanf("%d", &item_list[i]);
+	      		scanf("%d", &item_list[index]);
 	    	}
 	  		num_items = remove_adjacent_duplicates(item_list, num_items);
 			printf("List after removing Adjacent duplicates\n");
-	  		for (index = 0; index < num_items ; i++)//loop to print output list
+	  		for (index = 0; index < num_items ; index++)//loop to print output list
 	    	{
-	      		printf("%d\t", item_list[i]);
+	      		printf("%d\t", item_list[index]);
 	    	}
 	  		printf("\n");
 		}
