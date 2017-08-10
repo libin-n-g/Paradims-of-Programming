@@ -30,6 +30,7 @@ def main():
         item = int(raw_input())
         item_list.append(item)
         num_items -= 1
+    print "list after removing Adjacent duplicates"
     print remove_adjacent_duplicates(item_list)
 
 
